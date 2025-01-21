@@ -1,0 +1,203 @@
+/* font style */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+/* .quicksand-<uniquifier> {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  } */
+
+  /* universal */
+
+  *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  /*body area  */
+
+body{
+    font-family: "Quicksand", serif;
+}
+
+/* header area  */
+
+.header{
+    /* border: 1px solid black; */
+    max-width:1160px;
+    margin: 30px auto;
+    position: relative;
+}
+          /* navbar */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+           /* nav-title */
+.nav_title_box{
+    display: flex;
+    align-items:center;
+    gap:15px;
+}
+.nav_title{
+    font-size: 2rem;
+    font-weight: 700;
+}
+          /* links */
+.links{
+    display: flex;
+}
+.links li{
+    list-style: none;
+    margin-right:40px;
+}
+.links li a{
+    font-size: 1.3rem;
+    text-decoration: none;
+    font-weight: 500px;
+}
+#Home{
+    color: #FEA301;
+    font-weight: 700;
+}
+#About{
+    color: #01ACFD;
+}
+#Facilities{
+    color: #05D4DF;
+}
+#Admission{
+    color: #5D58EF;
+}
+      /* btn */
+.nav_btn_box{
+
+}
+.nav_btn_box button{
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 10px 60px;
+    background-color: #FEA301;
+    color: white;
+    border: none;
+    border-radius:12px;
+}
+
+      /* toggle btn */
+
+.toggle_btn_box {
+    font-size: 3rem;
+    display: none;
+    
+}
+
+
+
+
+/* banner area of header*/
+
+.banner_container{
+    display: flex;
+    margin: 40px auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner_contant{
+    max-width: 640px;
+    /* border: 1px solid; */
+
+}
+.banner_title{
+    font-size: 3.9rem;
+    margin: 12px 0;
+}
+#Empowering{
+    color: #FEA301;
+}
+#towards_vision{
+ color: #01ACFD;
+}
+.banner_pera{
+    font-size: 1.2rem;
+    color: gray;
+    line-height: 28px;
+}
+
+.banner_btn_box{
+
+}
+.banner_btn_box button{
+    margin:20px 0;
+    padding:10px 47px ;
+    font-size: 1.2rem;
+    font-weight: 700;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+    
+}
+
+/* main - area */
+
+#main_area{
+    max-width: 1160px;
+    margin: 50px auto;
+    /* border: 1px solid black; */
+}
+
+/* section part one / Standard_container */
+.Standard_container{
+    margin: 50px 0;
+    background: url("../assets/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.standard_contant{
+    margin: 0 auto;
+    max-width: 460px;
+    /* border: 1px solid ; */
+    text-align: center;
+}
+.Standard_title{
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+      /* cards_container */
+
+.cards_container{
+    margin: 50px 0;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2.3rem;
+    align-items: center;
+    text-align: center;
+}   
+.card_box{
+    padding: 50px 40px;
+    border-radius: 18px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.219);
+    
+}   
+.card_one{
+    background:linear-gradient(180deg,rgba(135, 207, 235, 0.437),rgba(255, 255, 255, 0.239));
+}
+.card_two{
+    background: linear-gradient(180deg,#fea10154,rgba(255, 255, 255, 0.281));
+}
+.card_three{
+    background: linear-gradient(180deg,rgba(75, 112, 247, 0.235),rgba(255, 255, 255, 0.268));
+}
+.card_box_title{
+    margin: 20px 0;
+    font-size: 1.5rem;
+}
+.card_link_box{
+    margin: 10px 0;
+}
+.card_link_box a{
+    text-decoration: none;
+    color: black;
+}

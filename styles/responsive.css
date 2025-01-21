@@ -65,6 +65,18 @@
     .our_story_box_two{
         padding: 0 10px;
     }
+
+    /* footer */
+
+    .footer_container{
+        flex-direction: column;
+        
+        align-items:normal;
+        padding: 0 8px;
+    }
+    .school_box{
+         margin: 50px 0 ;
+    }
 }
 
 
@@ -122,5 +134,26 @@
     .our_story_child{
         max-width: 290px;
     }  
+    /* footer */
+   
+    .footer_container{
+        padding: 0 8px;
+    }
+    .footer_contant{
+        max-width: 300px;
+       }
+    .footer_title{
+        font-size: 1.5rem;
+    }
+    .school_title{
+        font-size: 1.5rem;
+    }
+    .school_box li a {
+        font-size: 1rem;
+    
+    }
+    .icon_title{
+        font-size: 1.5rem;
+    }
 
 }
